@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/dark_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DiaryActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="25dp"
+        >
+
+        <TextView
+            android:id="@+id/today"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:text="Monday\nApril 19, 2022"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            />
+
+        <Button
+            android:backgroundTint="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="New Entry"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:onClick="createEntry"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="2dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Entries"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <EditText
+                android:id="@+id/entrySearch"
+                android:background="@android:color/transparent"
+                android:textColorHint="@color/smoke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="🔍 Search..."
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/entryList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="2dp"
+        >
+
+    </ListView>
+
+</LinearLayout>

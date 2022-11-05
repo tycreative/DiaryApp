@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="25dp"
+    android:paddingVertical="17dp"
+    tools:context=".DiaryActivity"
+    >
+
+    <TextView
+        android:id="@+id/entrySubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title/Subject"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:maxLines="1"
+        android:maxLength="34"
+        />
+
+    <TextView
+        android:id="@+id/entryUpdated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Updated: 04/19/2022"
+        android:textColor="@color/smoke"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/entryID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="id"
+        />
+
+</LinearLayout>
