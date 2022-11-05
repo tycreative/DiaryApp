@@ -24,7 +24,7 @@ A custom DBHelper (Database Helper) class handles the internal workings of proce
 
 ## Screenshots
 Basic loading screen
-![Loading screen](screenshots/loading_screen.png?raw=true =540,1110)
+![Loading screen](screenshots/loading_screen.png?raw=true)
 
 Upon first start, a password creation popup is displayed
 ![Registration screen](screenshots/register_screen.png?raw=true)
