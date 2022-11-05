@@ -23,25 +23,25 @@ The login screen is handled through a SharedPreferences object and displayed the
 A custom DBHelper (Database Helper) class handles the internal workings of processing the SQLite database and calling queries based on the needed information. 
 
 ## Screenshots
-Basic loading screen
-![Loading screen](screenshots/loading_screen.png?raw=true)
+Basic loading screen  
+<img src="screenshots/loading_screen.png" alt="Loading screen" width="270" />
 
-Upon first start, a password creation popup is displayed
-![Registration screen](screenshots/register_screen.png?raw=true)
+Upon first start, a password creation popup is displayed  
+<img src="screenshots/register_screen.png" alt="Register screen" width="270" />
 
-Otherwise, a password login popup is displayed
-![Login screen](screenshots/login_screen.png?raw=true)
+Otherwise, a password login popup is displayed   
+<img src="screenshots/login_screen.png" alt="Login screen" width="270" />
 
-Once logged in, a dashboard appears
-![Dashboard screen](screenshots/dashboard_screen.png?raw=true)
+Once logged in, a dashboard appears  
+<img src="screenshots/dashboard_screen.png" alt="Dashboard screen" width="270" />
 
-From here, one can create entries
-![Entry screen](screenshots/entry_screen.png?raw=true)
+From here, one can create entries  
+<img src="screenshots/entry_screen.png" alt="Entry screen" width="270" />
 
-Entries are shown in order of creation
-![Entries screen](screenshots/entries_screen.png?raw=true)
-And most recently updated
-![Updated screen](screenshots/updated_screen.png?raw=true)
+Entries are shown in order of creation  
+<img src="screenshots/entries_screen.png" alt="Entries screen" width="270" />  
+And most recently updated  
+<img src="screenshots/updated_screen.png" alt="Updated screen" width="270" />
 
-A user can also search within entries
-![Search screen](screenshots/search_screen.png?raw=true)
+A user can also search within entries  
+<img src="screenshots/search_screen.png" alt="Search screen" width="270" />
